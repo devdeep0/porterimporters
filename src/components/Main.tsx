@@ -3,6 +3,8 @@ import Image from 'next/image'
 import Header from './Header'
 import { CoverDemo } from './comps/Cover'
 import { BorderBeam } from "@/components/ui/borderbeam";
+import { TimelineDemo } from './comps/scroll';
+import { ScrollBasedVelocityDemo } from './comps/veocity';
 function Main() {
   return (
     <main className=''>
@@ -22,7 +24,7 @@ function Main() {
         
       </div>
       
-      <div className='h-[300px] p-5 items-center w-full flex justify-evenly'>
+      <div className='h-[300px] p-5 items-center w-full flex justify-evenly mt-4'>
         <div className='p-7 rounded-xl w-1/4 border-white text-white border-2 flex flex-col gap-8' style={{
            backgroundImage: `url('/frontpage/pngtree-rusted-cars-in-the-jungle-of-colombia-picture-image_2472711.jpg')`,
            backgroundSize: 'cover', // Ensures the image covers the entire div
@@ -46,15 +48,16 @@ function Main() {
 
       <div className='h-screen w-full flex items-center justify-center'>
         
-      <div className='relative h-[500px] w-1/2 text-white m-5 '>
+      <div className='relative h-[400px] w-2/3 text-white m-5 p-8'>
       <div className='flex h-full w-full'>
         <div className='h-full w-full flex flex-col gap-5 justify-center'>
         <div className='text-3xl font-bold'>Discover a New Level of Comfort</div>
         <div>We're here to make the car-buying process as easy and stress-free as possible. Contact us today to schedule a test drive or to learn more about our financing and service options.</div>
+        <button className='border-2 border-white h-fit w-fit p-2 pl-6 pr-6 rounded-xl'>Explore</button>
         </div>
-        <div className='h-full w-full'>
+        <div className='h-full w-full flex items-center justify-center'>
           <Image
-          src=''
+          src='/frontpage/pexels-mikebirdy-100650.jpg'
           alt=''
           height={500}
           width={500}
@@ -63,6 +66,13 @@ function Main() {
       </div>
       
       <BorderBeam/>
+      </div>
+      </div>
+
+      <div className='bg-black'>
+      <TimelineDemo/>
+      <div className='h-auto'>
+      <ScrollBasedVelocityDemo/>
       </div>
       </div>
         </div>
