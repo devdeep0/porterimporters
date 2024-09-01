@@ -9,7 +9,7 @@ export function TimelineDemo() {
       content: (
         <div>
           <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
-          At PorterImporters, we offer a wide variety of vehicles, from luxury brands to economical models. Whatever your preference, we've got you covered.
+          At PorterImporters, we offer a wide variety of vehicles, from luxury brands to economical models. Whatever your preference, we&apos;ve got you covered.
           </p>
           <div className="grid grid-cols-2 gap-4">
             <Image
@@ -52,7 +52,7 @@ export function TimelineDemo() {
           We handle all the complexities of vehicle importation, ensuring a hassle-free experience for you. Our team takes care of everything, from documentation to delivery.
           </p>
           <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
-          We help you find the perfect vehicle from reputable suppliers around the world, whether it's a luxury car, a rare model, or an economical option.
+          We help you find the perfect vehicle from reputable suppliers around the world, whether it&apos;s a luxury car, a rare model, or an economical option.
           </p>
           <div className="grid grid-cols-2 gap-4">
             <Image
