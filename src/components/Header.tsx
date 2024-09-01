@@ -6,7 +6,7 @@ function Header() {
         <div className='w-full h-full flex justify-between dark:text-white bg-transparent text-white  items-center p-4 border-b-2 border-b-white'>
             <div className='logo '>
                 <Image
-                src='/logo/Untitled-2-Recovered.png'
+                src='/logo/Porterimports.svg'
                 alt=''
                 height={150}
                 width={150}
