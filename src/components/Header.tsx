@@ -2,11 +2,11 @@ import React from 'react'
 import Image from 'next/image'
 function Header() {
   return (
-    <header className='h-24 w-full absolute  z-20'>
+    <header className='h-24 w-screen absolute sm:h-24 sm:w-full z-20'>
         <div className='w-full h-full flex justify-between dark:text-white bg-transparent text-white  items-center p-4 border-b-2 border-b-white'>
             <div className='logo '>
                 <Image
-                src='/logo/Porterimports.svg'
+                src='/logo/POrterimport3.png'
                 alt=''
                 height={150}
                 width={150}
